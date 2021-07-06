@@ -1,0 +1,344 @@
+@charset "utf-8";
+
+@media (max-width: 640px) {
+
+    /* メニュースタイルリセット */
+    .menu .menu-cat,
+    .drink-menu_1, .drink-menu_2, .drink-menu_3,
+    .whiskey-menu-container {
+        margin-top: 0;
+        margin-bottom: 9px;
+        padding: 0;
+        border: none;
+    }
+    .menu .menu-sub-cat {
+        margin-top: 0;
+        margin-bottom: 4px;
+        padding: 0;
+    }
+    
+    /* ------------------- 共通 ------------------- */
+    .wrapper {
+        max-width: 87%;
+    }
+    .section-title {
+        font-size: 20px;
+    }
+    .desc {
+        font-size: 12px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .menu-left, .menu-right {
+        width: 100%;
+    }
+    .menu-cat {
+        font-size: 14px;
+        pointer-events: all;
+    }
+    .menu-sub-cat  {
+        font-size: 13px;
+    }
+    dl, .menu li {
+        font-size: 12px;
+    }
+
+    /* ------- アコーディオン ------- */
+    .menu-list {
+        display: none;
+    }
+    .open .menu-list {
+        display: block;
+    }
+    .menu-cat::after {
+        content: '▼　OPEN';
+        font-size: 12px;
+        position: absolute;
+        right: 7%;
+    }
+    .menu-cat.open::after {
+        content: '▲　CLOSE';
+    }
+    
+    /* ------------------- ヘッダー ------------------- */
+    .header {
+        padding-top: 3%;
+        position: relative;
+        z-index: 2;
+    }
+    .logo img {
+        height: 35px;
+    }
+    .top .sns {
+        width: 60px;
+        position: relative;
+        left: 40px;
+    }
+    .top .sns i {
+        font-size: 22px;
+    }
+
+    /* --------- ハンバーガーメニュー --------- */
+    .hamburger-btn {
+        display: block;
+    }
+    .nav-pc {
+        display: none;
+    }
+    .nav-sp {
+        display: none;
+        width: 100%;
+        max-height: 63vh;
+        background-color: rgba(37, 40, 51, .9);
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .nav-sp ul {
+        padding-top: 30%;
+        text-align: center;
+    }
+    .nav-sp li {
+        margin-bottom: 34px;
+    }
+    .nav-sp a {
+        color: #fff;
+        font-size: 18px;
+        font-family: din-2014,sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .nav-sp i {
+        margin-right: 11px;
+    }
+    
+    /* ------------------- トップ ------------------- */
+    .top-wrapper {
+        max-width: 87%;
+    }
+    .top {
+        background-image: url(../images/main-bg_sp.jpg);
+        background-attachment: scroll;
+        background-position: 0;
+    }
+    .top-mix-layer {
+        background: linear-gradient(180deg, rgba(37, 40, 51, .9) 0%, rgba(37, 40, 51, .9) 50%, rgba(0, 0 ,0 ,0) 50%, rgba(0, 0 ,0 ,0) 100%);
+    }
+    .catch-container {
+        flex-direction: column-reverse;
+    }
+    .span_br {
+        display: block;
+    }
+    .catch {
+        font-size: 52px;
+        margin-top: 17px;
+        padding-bottom: 267px;
+    }
+    .catch-sub {
+        padding: 0;
+    }
+    .pr-photos {
+        flex-direction: column;
+    }
+    .pr-photos img {
+        width: 100%;
+    }
+
+    /* ------------------- サービス ------------------- */
+    .service-price {
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        margin-top: 28px;
+        margin-bottom: 9px;
+    }
+    .service-price span {
+        font-size: 25px;
+    }
+    .service-text br {
+        display: none;
+    }
+    .service-pics {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .service-pics img {
+        width: 131px;
+    }
+    .service-pics img:not(:last-child) {
+        margin-right: 13px;
+    }
+
+    /* ------------------- DRINK MENU ------------------- */
+    .drink-menu-pic {
+        display: none;
+    }
+    .drink-menu-pic_sp {
+        display: block;
+        width: 100%;
+        position: relative;
+        bottom: 14px;
+    }
+    .drink-menu_1, .drink-menu_2, .drink-menu_3 {
+        flex-direction: column;
+    }
+    .beer dd {
+        padding-right: 0;
+    }
+    .sour span, .sour .span_br {
+        font-size: 10px;
+    }
+    .menu-sub-cat.liqueur {
+        margin-top: 13px;
+    }
+    .wocca-pc {
+        display: none;
+    }
+    .wocca-sp {
+        display: block;
+        margin-top: 13px;
+    }
+    .menu-left.cocktail.cat-sp {
+        margin: 0;
+        padding: 0;
+        margin-top: 3px;
+        margin-bottom: 8px;
+    }
+
+    /* カテゴリー共通 */
+    .cat-sp {
+        padding-top: 13px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #fff;
+    }
+    .cocktail.cat-sp {
+        border-bottom: none;
+    }
+    .beer.cat-sp, .shot.cat-sp, ._400.cat-sp {
+        border-top: 1px solid #fff;
+    }
+    .section-title.drink-menu-ttl,
+    .section-title.whiskey-menu-ttl {
+        margin-top: 34px;
+        margin-bottom: 14px;
+    }
+
+    /* ------------------- WHISKEY MENU ------------------- */
+    .whiskey-menu-container {
+        flex-direction: column;
+    }
+    .whiskey-menu_pc {
+        display: none;
+    }
+    .whiskey-menu_sp {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    /* ------------------- FOOD MENU ------------------- */
+    .food-pics {
+        width: 100%;
+        overflow: hidden;
+        margin: 28px 0;
+    }
+    .food-pics img{
+        width: 131px;
+    }
+    .food-pics img:not(:last-child){
+        margin-right: 13px;
+    }
+    .food-menu-container {
+        flex-direction: column;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 51px;
+    }
+    .food-menu-left, .food-menu-right {
+        padding: 0;
+    }
+
+    /* ------------------- LUNCH TIME ------------------- */
+    .lunch-time_head {
+        display: none;
+    }
+    .lunch-time_head_sp {
+        display: block;
+        width: 100%;
+    }
+    .lunch-time_body {
+        padding-top: 28px;
+        padding-bottom: 47px;
+    }
+    ._time {
+        text-align: center;
+    }
+    .lunch-time_pc {
+        display: none;
+    }
+    .lunch-time_sp {
+        display: block;
+        width: 100%;
+    }
+
+    /* ------------------- アクセス ------------------- */
+    .access {
+        text-align: center;
+        padding-top: 28px;
+        padding-bottom: 45px;
+    }
+    .access h3 {
+        margin-bottom: 18px;
+    }
+    .access_head {
+        display: none;
+    }
+    .access_head_sp {
+        display: block;
+        width: 100%;
+    }
+    .access-container {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .access .logo {
+        display: none;
+    }
+    ._station {
+        margin-top: 0;
+        margin-bottom: 9px;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+    }
+    ._address {
+        font-size: 12px;
+    }
+    ._tel {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+    ._map {
+        position: relative;
+        height: 0;
+        padding-bottom: 60%;
+        overflow: hidden;
+    }
+    .map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    ._sns {
+        font-size: 11px;
+        margin-bottom: 14px;
+    }
+    .sns {
+        width: 90px;
+    }
+}
