@@ -25,7 +25,7 @@
         font-size: 20px;
     }
     .desc {
-        font-size: 12px;
+        font-size: 13px;
         text-align: left;
         margin-bottom: 20px;
     }
@@ -33,14 +33,14 @@
         width: 100%;
     }
     .menu-cat {
-        font-size: 14px;
+        font-size: 15px;
         pointer-events: all;
     }
     .menu-sub-cat  {
-        font-size: 13px;
+        font-size: 14px;
     }
     dl, .menu li {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     /* ------- アコーディオン ------- */
@@ -70,12 +70,12 @@
         height: 35px;
     }
     .top .sns {
-        width: 60px;
+        width: 76px;
         position: relative;
-        left: 40px;
+        left: 32px;
     }
     .top .sns i {
-        font-size: 22px;
+        font-size: 32px;
     }
 
     /* --------- ハンバーガーメニュー --------- */
@@ -138,6 +138,7 @@
     }
     .catch-sub {
         padding: 0;
+        font-size: 1rem;
     }
     .pr-photos {
         flex-direction: column;
@@ -188,7 +189,7 @@
         padding-right: 0;
     }
     .sour span, .sour .span_br {
-        font-size: 10px;
+        font-size: 11px;
     }
     .menu-sub-cat.liqueur {
         margin-top: 13px;
@@ -315,7 +316,7 @@
         letter-spacing: 0.05em;
     }
     ._address {
-        font-size: 12px;
+        font-size: 13px;
     }
     ._tel {
         font-size: 32px;
@@ -335,7 +336,7 @@
         height: 100%;
     }
     ._sns {
-        font-size: 11px;
+        font-size: 12px;
         margin-bottom: 14px;
     }
     .sns {
