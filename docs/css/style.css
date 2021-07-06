@@ -379,6 +379,7 @@ dt {
     font-weight: 600;
     font-style: normal;
     margin-top: 12px;
+    pointer-events: none;
 }
 ._map {
     width: 100%;
