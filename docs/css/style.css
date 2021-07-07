@@ -12,6 +12,9 @@ body {
 li {
     list-style: none;
 }
+img {
+    pointer-events: none;
+}
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
