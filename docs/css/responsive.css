@@ -140,11 +140,17 @@
         padding: 0;
         font-size: 1rem;
     }
-    .pr-photos {
+    .pr-container {
         flex-direction: column;
     }
-    .pr-photos img {
+    .pr-contents {
         width: 100%;
+    }
+    .pr-text p {
+        font-size: 0.8rem;
+    }
+    .pr-contents::before {
+        height: 98%;
     }
 
     /* ------------------- サービス ------------------- */
