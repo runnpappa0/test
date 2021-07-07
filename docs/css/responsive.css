@@ -70,12 +70,12 @@
         height: 35px;
     }
     .top .sns {
-        width: 60px;
+        width: 70px;
         position: relative;
-        left: 40px;
+        left: 37px;
     }
     .top .sns i {
-        font-size: 22px;
+        font-size: 30px;
     }
 
     /* --------- ハンバーガーメニュー --------- */
@@ -133,11 +133,12 @@
     }
     .catch {
         font-size: 52px;
-        margin-top: 17px;
+        margin-top: 0;
         padding-bottom: 267px;
     }
     .catch-sub {
         padding: 0;
+        font-size: 1rem;
     }
     .pr-photos {
         flex-direction: column;
