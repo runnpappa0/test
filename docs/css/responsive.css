@@ -149,9 +149,6 @@
     .pr-text p {
         font-size: 0.8rem;
     }
-    .pr-contents::before {
-        height: 98%;
-    }
 
     /* ------------------- サービス ------------------- */
     .service-price {
