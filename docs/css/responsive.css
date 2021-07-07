@@ -25,7 +25,7 @@
         font-size: 20px;
     }
     .desc {
-        font-size: 12px;
+        font-size: 13px;
         text-align: left;
         margin-bottom: 20px;
     }
@@ -33,7 +33,7 @@
         width: 100%;
     }
     .menu-cat {
-        font-size: 14px;
+        font-size: 15px;
         pointer-events: all;
     }
     .menu-sub-cat  {
